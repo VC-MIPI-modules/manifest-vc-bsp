@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote alias="repo" fetch="https://github.com/meta-qt5" name="githq"/>
+  <remote fetch="https://github.com/VC-MIPI-modules" name="vc"/>
+
+  <include name="base/pinned.xml"/>
+  <include name="bsp/pinned-nxp.xml"/>
+  <include name="bsp/pinned-ti.xml"/>
+  <include name="bsp/pinned-tdx.xml"/>
+
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="644ebf220245bdc06e7696ccc90acc97a0dd2566" upstream="kirkstone"/>
+  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="b9cf9cd639bc8d1b4828eb0bd012b71486d35176" upstream="kirkstone"/>
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="ad72d14becf6b54c1c76864eb691a369307672fa" upstream="kirkstone-6.x.y"/>
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="e4c2ec3c2151ef40d3dbfef488de633504619dce" upstream="kirkstone-6.x.y">
+    <copyfile dest="export" src="buildconf/export"/>
+  </project>
+
+  <project name="meta-vc-mipi" path="layers/meta-vc-mipi" remote="vc" revision="toradex-kirkstone" />
+  <project name="meta-vc-mipi" path="layers/meta-vc-mipi-test" remote="vc" revision="meta-vc-mipi-test" />
+</manifest>
