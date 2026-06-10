@@ -40,7 +40,7 @@
     <linkfile src="scripts/var-setup-release.sh" dest="var-setup-release.sh"/>
   </project>
 
-  <project remote="vc" revision="variscite-kirkstone" name="meta-vc-mipi" path="sources/meta-vc-mipi"/>
-  <project remote="vc" revision="meta-vc-mipi-test"   name="meta-vc-mipi" path="sources/meta-vc-mipi-test"/>
+  <project remote="vc" revision="1f4726772ae3c845e3a0dca0a5fd477900136dad" name="meta-vc-mipi" path="sources/meta-vc-mipi"/>
+  <project remote="vc" revision="c18883efecfcd3a3b04ef59f45d0e96b65201bdf"   name="meta-vc-mipi" path="sources/meta-vc-mipi-test"/>
 
 </manifest>
