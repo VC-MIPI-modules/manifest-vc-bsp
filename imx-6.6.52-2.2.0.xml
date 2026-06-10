@@ -60,7 +60,7 @@
   </project>
   <project name="var-host-docker-containers" remote="variscite"     path="sources/var-host-docker-containers" revision="dd7218bb6e1c76db77cf40552b4cad7dfaa795fc" upstream="master"/>
 
-  <project remote="vc" revision="variscite-scarthgap" name="meta-vc-mipi" path="sources/meta-vc-mipi"/>
-  <project remote="vc" revision="meta-vc-mipi-test"   name="meta-vc-mipi" path="sources/meta-vc-mipi-test"/>
+  <project remote="vc" revision="1fc95065359445545a41a6e1ae51a53978f3ed79" name="meta-vc-mipi" path="sources/meta-vc-mipi"/>
+  <project remote="vc" revision="c18883efecfcd3a3b04ef59f45d0e96b65201bdf"   name="meta-vc-mipi" path="sources/meta-vc-mipi-test"/>
 
 </manifest>
