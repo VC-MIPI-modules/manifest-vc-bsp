@@ -15,6 +15,6 @@
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 
-  <project name="meta-vc-mipi" path="layers/meta-vc-mipi" remote="vc" revision="toradex-kirkstone" />
-  <project name="meta-vc-mipi" path="layers/meta-vc-mipi-test" remote="vc" revision="meta-vc-mipi-test" />
+  <project name="meta-vc-mipi" path="layers/meta-vc-mipi" remote="vc" revision="8051201b0e0fbfde99827a8a8921d693cb2f31df" />
+  <project name="meta-vc-mipi" path="layers/meta-vc-mipi-test" remote="vc" revision="c18883efecfcd3a3b04ef59f45d0e96b65201bdf" />
 </manifest>
