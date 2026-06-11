@@ -54,6 +54,6 @@
     <linkfile dest="adlink-imx-setup-release.sh" src="conf/adlink-conf/adlink-imx-setup-release.sh"/>
   </project>
 
-  <project name="meta-vc-mipi" path="sources/meta-vc-mipi" remote="vc" revision="adlink-scarthgap"/>
-  <project name="meta-vc-mipi" path="sources/meta-vc-mipi-test" remote="vc" revision="meta-vc-mipi-test"/>
+  <project name="meta-vc-mipi" path="sources/meta-vc-mipi" remote="vc" revision="e593b2ac49a78e9c435a46fe66579521b1ae1e5e"/>
+  <project name="meta-vc-mipi" path="sources/meta-vc-mipi-test" remote="vc" revision="c18883efecfcd3a3b04ef59f45d0e96b65201bdf"/>
 </manifest>
