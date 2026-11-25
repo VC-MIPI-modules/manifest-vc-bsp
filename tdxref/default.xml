@@ -15,6 +15,6 @@
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 
-  <project name="meta-vc-mipi" path="layers/meta-vc-mipi" remote="vc" revision="9e9aa2a57d7751514197f380df6e256485ff73c7" />
+  <project name="meta-vc-mipi" path="layers/meta-vc-mipi" remote="vc" revision="3351142be7f40785f35794275c5ec4c6bc83b862" />
   <project name="meta-vc-mipi" path="layers/meta-vc-mipi-test" remote="vc" revision="c18883efecfcd3a3b04ef59f45d0e96b65201bdf" />
 </manifest>
